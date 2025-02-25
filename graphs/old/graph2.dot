@@ -1,0 +1,3 @@
+digraph nginx_syscalls {
+  0 [label="пярстужв ", shape=diamond];
+}

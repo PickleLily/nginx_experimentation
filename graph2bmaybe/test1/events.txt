@@ -1,0 +1,143 @@
+06:41:26.834330033: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:26.834331175: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:26.834333189: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:26.834335012: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:26.834371331: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:26.834375659: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+06:41:26.834393022: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:26.834402500: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+06:41:26.834414844: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+06:41:26.834422779: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139816130244608 vm_size=112728 vm_rss=6552 vm_swap=0 Return:139816130244608 PID:1801
+06:41:26.834484616: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F297AC6F000 length=288 Return:<NA> PID:1801
+06:41:26.834490467: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112724 vm_rss=6552 vm_swap=0 Return:0 PID:1801
+06:41:26.834497130: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+06:41:26.834502230: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:26.834688714: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:26.834695397: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+06:41:26.834719472: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+06:41:26.834720394: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:26.834734431: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:26.834735653: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+06:41:26.834810245: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BD0A000 Return:<NA> PID:1801
+06:41:26.834814984: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BD0A000 vm_size=112916 vm_rss=6552 vm_swap=0 Return:139816147656704 PID:1801
+06:41:26.834931024: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BCDA000 Return:<NA> PID:1801
+06:41:26.834945482: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BCDA000 vm_size=112724 vm_rss=6552 vm_swap=0 Return:139816147460096 PID:1801
+06:41:27.849128602: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:27.849131698: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:27.849135906: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:27.849139603: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:27.849204095: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:27.849207582: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+06:41:27.849229033: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:27.849238932: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+06:41:27.849250624: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+06:41:27.849260543: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139816130244608 vm_size=112728 vm_rss=6552 vm_swap=0 Return:139816130244608 PID:1801
+06:41:27.849322150: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F297AC6F000 length=288 Return:<NA> PID:1801
+06:41:27.849329013: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112724 vm_rss=6552 vm_swap=0 Return:0 PID:1801
+06:41:27.849334643: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+06:41:27.849336487: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:27.849369640: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:27.849376613: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+06:41:27.849406400: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+06:41:27.849407322: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:27.849439513: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:27.849444733: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+06:41:27.849552888: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BD0A000 Return:<NA> PID:1801
+06:41:27.849558589: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BD0A000 vm_size=112916 vm_rss=6552 vm_swap=0 Return:139816147656704 PID:1801
+06:41:27.849708925: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BCDA000 Return:<NA> PID:1801
+06:41:27.849726758: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BCDA000 vm_size=112724 vm_rss=6552 vm_swap=0 Return:139816147460096 PID:1801
+06:41:28.436314260: Critical Falco internal: hot restart failure: /etc/falco/rules.d/events.txt: Invalid
+1 Errors:
+In rules content: (/etc/falco/rules.d/events.txt:0:0)
+    value for: (/etc/falco/rules.d/events.txt:0:80)
+------
+...41:26.834330033: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+                                                                                ^
+------
+LOAD_ERR_YAML_PARSE (YAML parse error): yaml-cpp: error at line 1, column 81: illegal map value
+ ()
+06:41:28.854640495: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:28.854641346: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:28.854642969: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:28.854644352: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:28.854676072: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:28.854678687: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+06:41:28.854692423: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:28.854701170: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+06:41:28.854712612: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+06:41:28.854720587: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139816130244608 vm_size=112728 vm_rss=6552 vm_swap=0 Return:139816130244608 PID:1801
+06:41:28.854780360: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F297AC6F000 length=288 Return:<NA> PID:1801
+06:41:28.854786632: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112724 vm_rss=6552 vm_swap=0 Return:0 PID:1801
+06:41:28.854790259: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+06:41:28.854791602: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:28.854813694: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:28.854817210: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+06:41:28.854849882: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+06:41:28.854850914: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:28.854866434: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:28.854868017: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+06:41:28.854941236: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BD0A000 Return:<NA> PID:1801
+06:41:28.854945985: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BD0A000 vm_size=112916 vm_rss=6552 vm_swap=0 Return:139816147656704 PID:1801
+06:41:28.855097443: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BCDA000 Return:<NA> PID:1801
+06:41:28.855113894: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BCDA000 vm_size=112724 vm_rss=6552 vm_swap=0 Return:139816147460096 PID:1801
+06:41:29.858421974: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:29.858422865: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:29.858424609: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:29.858425911: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:29.858455558: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:29.858457832: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+06:41:29.858471608: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:29.858481216: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+06:41:29.858492969: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+06:41:29.858504220: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139816130244608 vm_size=112728 vm_rss=6552 vm_swap=0 Return:139816130244608 PID:1801
+06:41:29.858567701: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F297AC6F000 length=288 Return:<NA> PID:1801
+06:41:29.858575686: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112724 vm_rss=6556 vm_swap=0 Return:0 PID:1801
+06:41:29.858579473: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+06:41:29.858580876: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:29.858604020: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:29.858607586: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+06:41:29.858631442: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+06:41:29.858632043: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:29.858644977: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:29.858646100: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+06:41:29.858752502: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BD0A000 Return:<NA> PID:1801
+06:41:29.858760236: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BD0A000 vm_size=112916 vm_rss=6556 vm_swap=0 Return:139816147656704 PID:1801
+06:41:29.858918467: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BCDA000 Return:<NA> PID:1801
+06:41:29.858934858: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BCDA000 vm_size=112724 vm_rss=6556 vm_swap=0 Return:139816147460096 PID:1801
+06:41:30.863027408: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:30.863028250: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:30.863029813: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:30.863031055: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:30.863061042: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:30.863063357: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+06:41:30.863077724: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:30.863087222: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+06:41:30.863098754: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+06:41:30.863110586: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139816130244608 vm_size=112728 vm_rss=6556 vm_swap=0 Return:139816130244608 PID:1801
+06:41:30.863171652: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F297AC6F000 length=288 Return:<NA> PID:1801
+06:41:30.863179036: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112724 vm_rss=6556 vm_swap=0 Return:0 PID:1801
+06:41:30.863182834: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+06:41:30.863184206: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:30.863206819: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:30.863210005: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+06:41:30.863231857: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+06:41:30.863232488: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1801
+06:41:30.863244431: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:30.863245493: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+06:41:30.863318141: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BD0A000 Return:<NA> PID:1801
+06:41:30.863323050: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BD0A000 vm_size=112916 vm_rss=6556 vm_swap=0 Return:139816147656704 PID:1801
+06:41:30.863464579: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F297BCDA000 Return:<NA> PID:1801
+06:41:30.863493033: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F297BCDA000 vm_size=112724 vm_rss=6556 vm_swap=0 Return:139816147460096 PID:1801
+06:41:31.868027948: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:31.868028880: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1801
+06:41:31.868030493: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:31.868031836: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1801
+06:41:31.868062244: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1801
+06:41:31.868065861: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+06:41:31.868080188: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+06:41:31.868090187: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+06:41:31.868102510: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+06:41:31.868112770: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139816130244608 vm_size=112728 vm_rss=6556 vm_swap=0 Return:139816130244608 PID:1801
+06:41:31.868173385: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F297AC6F000 length=288 Return:<NA> PID:1801
+06:41:31.868180969: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112724 vm_rss=6556 vm_swap=0 Return:0 PID:1801
+06:41:31.868184937: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801

@@ -1,0 +1,489 @@
+20:49:21.320614219: Informational Name:apache2 FD:13 Syscall:read Args:fd=13(<4t>127.0.0.1:60411->127.0.0.1:80) size=8000 Return:<NA> PID:1800
+20:49:21.320618517: Informational Name:apache2 FD:13 Syscall:read Args:res=260 data=GET /chat/read_log.php HTTP/1.1..accept: */*..Referer: about:blank..User-Agent:  Return:260 PID:1800
+20:49:21.320799842: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1800
+20:49:21.320800663: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1800
+20:49:21.320802326: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1800
+20:49:21.320803428: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1800
+20:49:21.320834688: Informational Name:apache2 FD:<NA> Syscall:chdi20:49:21.320836942: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1800
+20:49:21.320852572: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1800
+20:49:21.320861218: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1800
+20:49:21.320877008: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1800
+20:49:21.320901284: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375204352 vm_size=116696 vm_rss=9448 vm_swap=0 Return:139727375204352 PID:1800
+20:49:21.320963732: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0908000 length=288 Return:<NA> PID:1800
+20:49:21.320971617: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116692 vm_rss=9448 vm_swap=0 Return:0 PID:1800
+20:49:21.320975505: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1800
+20:49:21.320976928: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1800
+20:49:21.321000051: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1800
+20:49:21.321003338: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1800
+20:49:21.321020851: Informational Name:apache2 FD:14 Syscall:read Args:fd=14(<f>/var/www/log.html) size=8192 Return:<NA> PID:1800
+20:49:21.321022985: Informational Name:apache2 FD:14 Syscall:read Args:res=1675 data=.<div class='msgln'>(6:28 AM) <b>Papa Smurf</b>: So what are you doing here?<br> Return:1675 PID:1800
+20:49:21.321026141: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1800
+20:49:21.321026722: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1800
+20:49:21.321038605: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1800
+20:49:21.321039747: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1800
+20:49:21.321267940: Informational Name:apache2 FD:13 Syscall:read Args:fd=13(<4t>127.0.0.1:60411->127.0.0.1:80) size=8000 Return:<NA> PID:1800
+20:49:21.321270895: Informational Name:apache2 FD:13 Syscall:read Args:res=-11(EAGAIN) data=NULL Return:-11 PID:1800
+20:49:21.321274863: Informational Name:apache2 FD:13 Syscall:writev Args:fd=13(<4t>127.0.0.1:60411->127.0.0.1:80) size=924 Return:<NA> PID:1800
+20:49:21.321304840: Informational Name:apache2 FD:13 Syscall:writev Args:res=924 data=HTTP/1.1 200 OK..Date: Mon, 17 Feb 2025 20:49:21 GMT..Server: Apache/2.4.7 (Ubun Return:924 PID:1800
+20:49:21.321316782: Informational Name:apache2 FD:8 Syscall:write Args:fd=8(<f>/var/log/apache2/access.log) size=170 Return:<NA> PID:1800
+20:49:21.321336770: Informational Name:apache2 FD:8 Syscall:write Args:res=170 data=127.0.0.1 - - [17/Feb/2025:20:49:21 +0000] "GET /chat/read_log.php HTTP/1.1" 200 Return:170 PID:1800
+20:49:22.328865789: Informational Name:apache2 FD:13 Syscall:read Args:fd=13(<4t>127.0.0.1:60412->127.0.0.1:80) size=8000 Return:<NA> PID:1798
+20:49:22.328872341: Informational Name:apache2 FD:13 Syscall:read Args:res=260 data=GET /chat/read_log.php HTTP/1.1..accept: */*..Referer: about:blank..User-Agent:  Return:260 PID:1798
+20:49:22.329122786: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1798
+20:49:22.329123868: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1798
+20:49:22.329126543: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1798
+20:49:22.329128116: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1798
+20:49:22.329166138: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1798
+20:49:22.329169094: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1798
+20:49:22.329187519: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1798
+20:49:22.329207126: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1798
+20:49:22.329244687: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1798
+20:49:22.329259315: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375196160 vm_size=112744 vm_rss=6480 vm_swap=0 Return:139727375196160 PID:1798
+20:49:22.329336181: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0906000 length=288 Return:<NA> PID:1798
+20:49:22.329348104: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112740 vm_rss=6480 vm_swap=0 Return:0 PID:1798
+20:49:22.329353163: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1798
+20:49:22.329354866: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1798
+20:49:22.329384813: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1798
+20:49:22.329389422: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1798
+20:49:22.329412456: Informational Name:apache2 FD:14 Syscall:read Args:fd=14(<f>/var/www/log.html) size=8192 Return:<NA> PID:1798
+20:49:22.329415882: Informational Name:apache2 FD:14 Syscall:read Args:res=1675 data=.<div class='msgln'>(6:28 AM) <b>Papa Smurf</b>: So what are you doing here?<br> Return:1675 PID:1798
+20:49:22.329420010: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1798
+20:49:22.329420812: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1798
+20:49:22.329435560: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1798
+20:49:22.329437764: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1798
+20:49:22.329625730: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F14D2002000 Return:<NA> PID:1798
+20:49:22.329631812: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F14D2002000 vm_size=112932 vm_rss=6480 vm_swap=0 Return:139727399297024 PID:1798
+20:49:22.329927253: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F14D1FD2000 Return:<NA> PID:1798
+20:49:22.330025759: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F14D1FD2000 vm_size=112740 vm_rss=6480 vm_swap=0 Return:139727399100416 PID:1798
+20:49:22.330064593: Informational Name:apache2 FD:13 Syscall:read Args:fd=13(<4t>127.0.0.1:60412->127.0.0.1:80) size=8000 Return:<NA> PID:1798
+20:49:22.330068721: Informational Name:apache2 FD:13 Syscall:read Args:res=-11(EAGAIN) data=NULL Return:-11 PID:1798
+20:49:22.330074662: Informational Name:apache2 FD:13 Syscall:writev Args:fd=13(<4t>127.0.0.1:60412->127.0.0.1:80) size=924 Return:<NA> PID:1798
+20:49:22.330116492: Informational Name:apache2 FD:13 Syscall:writev Args:res=924 data=HTTP/1.1 200 OK..Date: Mon, 17 Feb 2025 20:49:22 GMT..Server: Apache/2.4.7 (Ubun Return:924 PID:1798
+20:49:22.330134065: Informational Name:apache2 FD:8 Syscall:write Args:fd=8(<f>/var/log/apache2/access.log) size=170 Return:<NA> PID:1798
+20:49:22.330166136: Informational Name:apache2 FD:8 Syscall:write Args:res=170 data=127.0.0.1 - - [17/Feb/2025:20:49:22 +0000] "GET /chat/read_log.php HTTP/1.1" 200 Return:170 PID:1798
+20:49:23.336677789: Informational Name:apache2 FD:13 Syscall:read Args:fd=13(<4t>127.0.0.1:60411->127.0.0.1:80) size=8000 Return:<NA> PID:1800
+20:49:23.336684061: Informational Name:apache2 FD:13 Syscall:read Args:res=260 data=GET /chat/read_log.php HTTP/1.1..accept: */*..Referer: about:blank..User-Agent:  Return:260 PID:1800
+20:49:23.336877588: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1800
+20:49:23.336878811: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1800
+20:49:23.336880985: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1800
+20:49:23.336882518: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1800
+20:49:23.336920780: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1800
+20:49:23.336924277: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1800
+20:49:23.336942782: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1800
+20:49:23.336955346: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1800
+20:49:23.336971486: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1800
+20:49:23.336982748: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375204352 vm_size=116696 vm_rss=9448 vm_swap=0 Return:139727375204352 PID:1800
+20:49:23.337062569: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0908000 length=288 Return:<NA> PID:1800
+20:49:23.337072739: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116692 vm_rss=9448 vm_swap=0 Return:0 PID:1800
+20:49:23.337077127: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1800
+20:49:23.337078790: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1800
+20:49:23.337107985: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1800
+20:49:23.337112694: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1800
+20:49:23.337135217: Informational Name:apache2 FD:14 Syscall:read Args:fd=14(<f>/var/www/log.html) size=8192 Return:<NA> PID:1800
+20:49:23.337139014: Informational Name:apache2 FD:14 Syscall:read Args:res=1675 data=.<div class='msgln'>(6:28 AM) <b>Papa Smurf</b>: So what are you doing here?<br> Return:1675 PID:1800
+20:49:23.337143453: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1800
+20:49:23.337144234: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1800
+20:49:23.337158611: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1800
+20:49:23.337160475: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1800
+20:49:23.337488748: Informational Name:apache2 FD:13 Syscall:read Args:fd=13(<4t>127.0.0.1:60411->127.0.0.1:80) size=8000 Return:<NA> PID:1800
+20:49:23.337492545: Informational Name:apache2 FD:13 Syscall:read Args:res=-11(EAGAIN) data=NULL Return:-11 PID:1800
+20:49:23.337499578: Informational Name:apache2 FD:13 Syscall:writev Args:fd=13(<4t>127.0.0.1:60411->127.0.0.1:80) size=924 Return:<NA> PID:1800
+20:49:23.337543552: Informational Name:apache2 FD:13 Syscall:writev Args:res=924 data=HTTP/1.1 200 OK..Date: Mon, 17 Feb 2025 20:49:23 GMT..Server: Apache/2.4.7 (Ubun Return:924 PID:1800
+20:49:23.337557017: Informational Name:apache2 FD:8 Syscall:write Args:fd=8(<f>/var/log/apache2/access.log) size=170 Return:<NA> PID:1800
+20:49:23.337577927: Informational Name:apache2 FD:8 Syscall:write Args:res=170 data=127.0.0.1 - - [17/Feb/2025:20:49:23 +0000] "GET /chat/read_log.php HTTP/1.1" 200 Return:170 PID:1800
+20:49:23.467859204: Informational Name:apache2 FD:13 Syscall:accept4 Args:fd=13(<4t>172.28.128.1:62374->172.28.128.3:80) tuple=172.28.128.1:62374->172.28.128.3:80 queuepct=0 queuelen=0 queuemax=128 Return:13 PID:1982
+20:49:23.467917244: Informational Name:apache2 FD:13 Syscall:fcntl Args:fd=13(<4t>172.28.128.1:62374->172.28.128.3:80) cmd=4(F_GETFL) Return:<NA> PID:1982
+20:49:23.467923857: Informational Name:apache2 FD:13 Syscall:fcntl Args:res=2(<f>/var/log/apache2/error.log) fd=13(<4t>172.28.128.1:62374->172.28.128.3:80) cmd=4(F_GETFL) Return:2 PID:1982
+20:49:23.467929277: Informational Name:apache2 FD:13 Syscall:fcntl Args:fd=13(<4t>172.28.128.1:62374->172.28.128.3:80) cmd=5(F_SETFL) Return:<NA> PID:1982
+20:49:23.467933706: Informational Name:apache2 FD:13 Syscall:fcntl Args:res=0(<f>/dev/null) fd=13(<4t>172.28.128.1:62374->172.28.128.3:80) cmd=5(F_SETFL) Return:0 PID:1982
+20:49:23.468101905: Informational Name:apache2 FD:13 Syscall:read Args:fd=13(<4t>172.28.128.1:62374->172.28.128.3:80) size=8000 Return:<NA> PID:1982
+20:49:23.468112064: Informational Name:apache2 FD:13 Syscall:read Args:res=471 data=GET /drupal/ HTTP/1.1..Host: 172.28.128.3..User-Agent: Mozilla/5.0 (X11; Linux x Return:471 PID:1982
+20:49:23.468505851: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.468516832: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375249408 vm_size=112560 vm_rss=5048 vm_swap=0 Return:139727375249408 PID:1982
+20:49:23.468573059: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.468575894: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375241216 vm_size=112568 vm_rss=5048 vm_swap=0 Return:139727375241216 PID:1982
+20:49:23.469056576: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1982
+20:49:23.469057398: Informational Name:apache2 FD:<NA> Syscall:rt_sigaction Args: Return:<NA> PID:1982
+20:49:23.469058951: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1982
+20:49:23.469060303: Informational Name:apache2 FD:<NA> Syscall:rt_sigprocmask Args: Return:<NA> PID:1982
+20:49:23.469209887: Informational Name:apache2 FD:<NA> Syscall:chdir Args: Return:<NA> PID:1982
+20:49:23.469213314: Informational Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/drupal Return:0 PID:1982
+20:49:23.469290981: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/index.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.469300980: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/drupal/index.php) name=/var/www/html/drupal/index.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=533316 Return:14 PID:1982
+20:49:23.469320798: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=529 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/drupal/index.php) offset=0 Return:<NA> PID:1982
+20:49:23.469373097: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375237120 vm_size=112572 vm_rss=5724 vm_swap=0 Return:139727375237120 PID:1982
+20:49:23.481005949: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0910000 length=529 Return:<NA> PID:1982
+20:49:23.481020146: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=112568 vm_rss=5904 vm_swap=0 Return:0 PID:1982
+20:49:23.481027890: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/drupal/index.php) Return:<NA> PID:1982
+20:49:23.481030445: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.484331829: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/bootstrap.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.484358730: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/drupal/includes/bootstrap.inc) name=/var/www/html/drupal/includes/bootstrap.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533014 Return:14 PID:1982
+20:49:23.484374891: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=102431 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/drupal/includes/bootstrap.inc) offset=0 Return:<NA> PID:1982
+20:49:23.484445565: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375134720 vm_size=112672 vm_rss=5904 vm_swap=0 Return:139727375134720 PID:1982
+20:49:23.488163690: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.488170883: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727374868480 vm_size=112932 vm_rss=6068 vm_swap=0 Return:139727374868480 PID:1982
+20:49:23.488289468: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.488293426: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727263539200 vm_size=113192 vm_rss=6068 vm_swap=0 Return:139727263539200 PID:1982
+20:49:23.491797765: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D08F7000 length=102431 Return:<NA> PID:1982
+20:49:23.491813094: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113088 vm_rss=6468 vm_swap=0 Return:0 PID:1982
+20:49:23.491818364: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/drupal/includes/bootstrap.inc) Return:<NA> PID:1982
+20:49:23.491820588: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.493097171: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.496619069: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/sites.php Return:-2 PID:1982
+20:49:23.496696997: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.496842163: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/172.28.128.3.drupal/settings.php Return:-2 PID:1982
+20:49:23.496863022: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.496954927: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/28.128.3.drupal/settings.php Return:-2 PID:1982
+20:49:23.496985264: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.497058814: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/128.3.drupal/settings.php Return:-2 PID:1982
+20:49:23.497070846: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.497131932: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/3.drupal/settings.php Return:-2 PID:1982
+20:49:23.497157741: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.497232173: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/172.28.128.3/settings.php Return:-2 PID:1982
+20:49:23.497244296: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.497420159: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/28.128.3/settings.php Return:-2 PID:1982
+20:49:23.497435408: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.497513707: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/128.3/settings.php Return:-2 PID:1982
+20:49:23.497526451: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.497534296: Informational Name:apache2 FD:<NA> Syscall:access Args:res=-2(ENOENT) name=/var/www/html/drupal/sites/3/settings.php Return:-2 PID:1982
+20:49:23.497543954: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.500109943: Informational Name:apache2 FD:<NA> Syscall:access Args:res=0 name=/var/www/html/drupal/sites/default/settings.php Return:0 PID:1982
+20:49:23.500196677: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/sites/default/settings.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.500228959: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/drupal/sites/default/settings.php) name=/var/www/html/drupal/sites/default/settings.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=1314607 Return:14 PID:1982
+20:49:23.500337955: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=18261 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/drupal/sites/default/settings.php) offset=0 Return:<NA> PID:1982
+20:49:23.500451120: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375220736 vm_size=113108 vm_rss=6916 vm_swap=0 Return:139727375220736 PID:1982
+20:49:23.510882538: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090C000 length=18261 Return:<NA> PID:1982
+20:49:23.510963892: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113088 vm_rss=6924 vm_swap=0 Return:0 PID:1982
+20:49:23.510972839: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/drupal/sites/default/settings.php) Return:<NA> PID:1982
+20:49:23.510976135: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.511827070: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/cache.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.511836738: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/drupal/includes/cache.inc) name=/var/www/html/drupal/includes/cache.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533022 Return:14 PID:1982
+20:49:23.511847589: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=17508 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/drupal/includes/cache.inc) offset=0 Return:<NA> PID:1982
+20:49:23.511862146: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375220736 vm_size=113108 vm_rss=6924 vm_swap=0 Return:139727375220736 PID:1982
+20:49:23.513848455: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090C000 length=17508 Return:<NA> PID:1982
+20:49:23.513858464: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113088 vm_rss=7060 vm_swap=0 Return:0 PID:1982
+20:49:23.513863373: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/drupal/includes/cache.inc) Return:<NA> PID:1982
+20:49:23.513869305: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.516840172: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/database/database.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.516847305: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/drupal/includes/database/database.inc) name=/var/www/html/drupal/includes/database/database.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533066 Return:14 PID:1982
+20:49:23.516857975: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=93001 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/drupal/includes/database/database.inc) offset=0 Return:<NA> PID:1982
+20:49:23.516902159: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375147008 vm_size=113180 vm_rss=7060 vm_swap=0 Return:139727375147008 PID:1982
+20:49:23.521020098: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.521027451: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727263272960 vm_size=113440 vm_rss=7280 vm_swap=0 Return:139727263272960 PID:1982
+20:49:23.522100958: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D08FA000 length=93001 Return:<NA> PID:1982
+20:49:23.522113212: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113348 vm_rss=7484 vm_swap=0 Return:0 PID:1982
+20:49:23.522117620: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/drupal/includes/database/database.inc) Return:<NA> PID:1982
+20:49:23.522119423: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.523686166: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/lock.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.523696215: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/drupal/includes/lock.inc) name=/var/www/html/drupal/includes/lock.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533007 Return:14 PID:1982
+20:49:23.523709901: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=9205 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/drupal/includes/lock.inc) offset=0 Return:<NA> PID:1982
+20:49:23.523767961: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375228928 vm_size=113360 vm_rss=7484 vm_swap=0 Return:139727375228928 PID:1982
+20:49:23.531830028: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090E000 length=9205 Return:<NA> PID:1982
+20:49:23.531843163: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113348 vm_rss=7512 vm_swap=0 Return:0 PID:1982
+20:49:23.531850026: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/drupal/includes/lock.inc) Return:<NA> PID:1982
+20:49:23.531852741: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.537356714: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/database/mysql/database.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.537367335: Informational Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/drupal/includes/database/mysql/database.inc) name=/var/www/html/drupal/includes/database/mysql/database.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533064 Return:14 PID:1982
+20:49:23.537382533: Informational Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=7778 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/drupal/includes/database/mysql/database.inc) offset=0 Return:<NA> PID:1982
+20:49:23.537401079: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375233024 vm_size=113356 vm_rss=7512 vm_swap=0 Return:139727375233024 PID:1982
+20:49:23.553005787: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090F000 length=7778 Return:<NA> PID:1982
+20:49:23.553019192: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113348 vm_rss=7644 vm_swap=0 Return:0 PID:1982
+20:49:23.553026516: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/drupal/includes/database/mysql/database.inc) Return:<NA> PID:1982
+20:49:23.553029261: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.554639296: Informational Name:apache2 FD:-1 Syscall:socket Args:domain=10(AF_INET6) type=2 proto=0 Return:<NA> PID:1982
+20:49:23.554656539: Informational Name:apache2 FD:14 Syscall:socket Args:fd=14(<6>) Return:14 PID:1982
+20:49:23.554664404: Informational Name:apache2 FD:14 Syscall:close Args:fd=14(<6>) Return:<NA> PID:1982
+20:49:23.554666127: Informational Name:apache2 FD:14 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.554700082: Informational Name:apache2 FD:-1 Syscall:socket Args:domain=2(AF_INET) type=1 proto=0 Return:<NA> PID:1982
+20:49:23.554706604: Informational Name:apache2 FD:14 Syscall:socket Args:fd=14(<4>) Return:14 PID:1982
+20:49:23.554708327: Informational Name:apache2 FD:14 Syscall:fcntl Args:fd=14(<4>) cmd=4(F_GETFL) Return:<NA> PID:1982
+20:49:23.554710111: Informational Name:apache2 FD:14 Syscall:fcntl Args:res=2(<f>/var/log/apache2/error.log) fd=14(<4>) cmd=4(F_GETFL) Return:2 PID:1982
+20:49:23.554711643: Informational Name:apache2 FD:14 Syscall:fcntl Args:fd=14(<4>) cmd=5(F_SETFL) Return:<NA> PID:1982
+20:49:23.554712385: Informational Name:apache2 FD:14 Syscall:fcntl Args:res=0(<f>/dev/null) fd=14(<4>) cmd=5(F_SETFL) Return:0 PID:1982
+20:49:23.554714248: Informational Name:apache2 FD:14 Syscall:connect Args:fd=14(<4>) addr=127.0.0.1:3306 Return:<NA> PID:1982
+20:49:23.556103354: Informational Name:apache2 FD:14 Syscall:connect Args:res=-115(EINPROGRESS) tuple=127.0.0.1:43361->127.0.0.1:3306 fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) Return:-115 PID:1982
+20:49:23.556118884: Informational Name:apache2 FD:14 Syscall:fcntl Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) cmd=5(F_SETFL) Return:<NA> PID:1982
+20:49:23.556119515: Informational Name:apache2 FD:14 Syscall:fcntl Args:res=0(<f>/dev/null) fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) cmd=5(F_SETFL) Return:0 PID:1982
+20:49:23.556127881: Informational Name:apache2 FD:<NA> Syscall:setsockopt Args: Return:<NA> PID:1982
+20:49:23.556129063: Informational Name:apache2 FD:-1 Syscall:setsockopt Args:res=0 fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) level=2(SOL_TCP) optname=0(UNKNOWN) val=.... optlen=4 Return:0 PID:1982
+20:49:23.556144011: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=4 Return:<NA> PID:1982
+20:49:23.556146556: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=4 data=[... tuple=127.0.0.1:3306->127.0.0.1:43361 Return:4 PID:1982
+20:49:23.556163839: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=95 Return:<NA> PID:1982
+20:49:23.556165793: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=91 data=.5.5.62-0ubuntu0.14.04.1....._fc?NJfF...................jb-UHIv5E:45.mysql_nativ tuple=127.0.0.1:3306->127.0.0.1:43361 Return:91 PID:1982
+20:49:23.556256094: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=91 tuple=NULL Return:<NA> PID:1982
+20:49:23.556503233: Informational Name:apache2 FD:14 Syscall:sendto Args:res=91 data=W...................................root......^...h..~t.4K&.g.drupal.mysql_nativ Return:91 PID:1982
+20:49:23.556517981: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=4 Return:<NA> PID:1982
+20:49:23.556519944: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=4 data=.... tuple=127.0.0.1:3306->127.0.0.1:43361 Return:4 PID:1982
+20:49:23.556525365: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=95 Return:<NA> PID:1982
+20:49:23.556526236: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=7 data=....... tuple=127.0.0.1:3306->127.0.0.1:43361 Return:7 PID:1982
+20:49:23.556658988: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=19 tuple=NULL Return:<NA> PID:1982
+20:49:23.557113411: Informational Name:apache2 FD:14 Syscall:sendto Args:res=19 data=.....SET NAMES utf8 Return:19 PID:1982
+20:49:23.557127908: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=88 Return:<NA> PID:1982
+20:49:23.557129792: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=11 data=........... tuple=127.0.0.1:3306->127.0.0.1:43361 Return:11 PID:1982
+20:49:23.557140542: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=36 tuple=NULL Return:<NA> PID:1982
+20:49:23.557748310: Informational Name:apache2 FD:14 Syscall:sendto Args:res=36 data= ....SET sql_mode='ANSI,TRADITIONAL' Return:36 PID:1982
+20:49:23.557760924: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=77 Return:<NA> PID:1982
+20:49:23.557763599: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=11 data=........... tuple=127.0.0.1:3306->127.0.0.1:43361 Return:11 PID:1982
+20:49:23.558365070: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=98 tuple=NULL Return:<NA> PID:1982
+20:49:23.570709377: Informational Name:apache2 FD:14 Syscall:sendto Args:res=98 data=^....SELECT cid, data, created, expire, serialized FROM cache_bootstrap WHERE ci Return:98 PID:1982
+20:49:23.594850282: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=66 Return:<NA> PID:1982
+20:49:23.594866773: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=66 data=.....@....def.drupal.cache_bootstrap.cache_bootstrap.cid.cid.!.... tuple=127.0.0.1:3306->127.0.0.1:43361 Return:66 PID:1982
+20:49:23.594902681: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=95 Return:<NA> PID:1982
+20:49:23.594903894: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=95 data=...@...B....def.drupal.cache_bootstrap.cache_bootstrap.data.data.?...........H.. tuple=127.0.0.1:3306->127.0.0.1:43361 Return:95 PID:1982
+20:49:23.594913742: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=95 Return:<NA> PID:1982
+20:49:23.594914644: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=95 data=che_bootstrap.cache_bootstrap.created.created.?...........F....def.drupal.cache_ tuple=127.0.0.1:3306->127.0.0.1:43361 Return:95 PID:1982
+20:49:23.594919924: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=95 Return:<NA> PID:1982
+20:49:23.594920716: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=95 data=_bootstrap.expire.expire.?.......@...N....def.drupal.cache_bootstrap.cache_boots tuple=127.0.0.1:3306->127.0.0.1:43361 Return:95 PID:1982
+20:49:23.594925164: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=95 Return:<NA> PID:1982
+20:49:23.594925966: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=95 data=.serialized.?.........................variables...a:32:{s:11:"admin_theme";s:5:" tuple=127.0.0.1:3306->127.0.0.1:43361 Return:95 PID:1982
+20:49:23.594952656: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F14D1FD2000 Return:<NA> PID:1982
+20:49:23.594961523: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F14D1FD2000 vm_size=113480 vm_rss=7896 vm_swap=0 Return:139727399100416 PID:1982
+20:49:23.594979116: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=4947 Return:<NA> PID:1982
+20:49:23.594988344: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=4803 data=an_url";s:1:"0";s:12:"comment_page";i:0;s:8:"cron_key";s:43:"onqAIuO6otCiEPL2YW2 tuple=127.0.0.1:3306->127.0.0.1:43361 Return:4803 PID:1982
+20:49:23.595232207: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.595240132: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727263006720 vm_size=113740 vm_rss=7896 vm_swap=0 Return:139727263006720 PID:1982
+20:49:23.595585327: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/module.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.595596358: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/module.inc) name=/var/www/html/drupal/includes/module.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533005 Return:15 PID:1982
+20:49:23.595610665: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=36163 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/module.inc) offset=0 Return:<NA> PID:1982
+20:49:23.595627417: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375204352 vm_size=113776 vm_rss=7896 vm_swap=0 Return:139727375204352 PID:1982
+20:49:23.599497064: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0908000 length=36163 Return:<NA> PID:1982
+20:49:23.599509337: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113740 vm_rss=8208 vm_swap=0 Return:0 PID:1982
+20:49:23.599513926: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/module.inc) Return:<NA> PID:1982
+20:49:23.599516611: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.599740536: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=106 tuple=NULL Return:<NA> PID:1982
+20:49:23.599816931: Informational Name:apache2 FD:14 Syscall:sendto Args:res=106 data=f....SELECT cid, data, created, expire, serialized FROM cache_bootstrap WHERE ci Return:106 PID:1982
+20:49:23.601168084: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=144 Return:<NA> PID:1982
+20:49:23.601173234: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=144 data=.....@....def.drupal.cache_bootstrap.cache_bootstrap.cid.cid.!.......@...B....de tuple=127.0.0.1:3306->127.0.0.1:43361 Return:144 PID:1982
+20:49:23.601193392: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=4947 Return:<NA> PID:1982
+20:49:23.601195055: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=507 data=....def.drupal.cache_bootstrap.cache_bootstrap.created.created.?...........F.... tuple=127.0.0.1:3306->127.0.0.1:43361 Return:507 PID:1982
+20:49:23.601309402: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F14D1FD0000 Return:<NA> PID:1982
+20:49:23.601318049: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F14D1FD0000 vm_size=113732 vm_rss=8220 vm_swap=0 Return:139727399092224 PID:1982
+20:49:23.601336594: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.605559492: Informational Name:apache2 FD:<NA> Syscall:access Args:res=0 name=modules/dblog/dblog.module(/var/www/html/drupal/modules/dblog/dblog.module) Return:0 PID:1982
+20:49:23.605586633: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.608899859: Informational Name:apache2 FD:<NA> Syscall:access Args:res=0 name=modules/overlay/overlay.module(/var/www/html/drupal/modules/overlay/overlay.module) Return:0 PID:1982
+20:49:23.608992886: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/modules/dblog/dblog.module flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.609001112: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/modules/dblog/dblog.module) name=/var/www/html/drupal/modules/dblog/dblog.module flags=1(O_RDONLY) mode=0 dev=FC00 ino=930906 Return:15 PID:1982
+20:49:23.609012543: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=6908 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/modules/dblog/dblog.module) offset=0 Return:<NA> PID:1982
+20:49:23.609061065: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375233024 vm_size=113740 vm_rss=8220 vm_swap=0 Return:139727375233024 PID:1982
+20:49:23.613997963: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090F000 length=6908 Return:<NA> PID:1982
+20:49:23.614010116: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113732 vm_rss=8260 vm_swap=0 Return:0 PID:1982
+20:49:23.614015857: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/modules/dblog/dblog.module) Return:<NA> PID:1982
+20:49:23.614017910: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.614486730: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/modules/overlay/overlay.module flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.614494825: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/modules/overlay/overlay.module) name=/var/www/html/drupal/modules/overlay/overlay.module flags=1(O_RDONLY) mode=0 dev=FC00 ino=533211 Return:15 PID:1982
+20:49:23.614509994: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=33639 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/modules/overlay/overlay.module) offset=0 Return:<NA> PID:1982
+20:49:23.614642315: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375204352 vm_size=113768 vm_rss=8260 vm_swap=0 Return:139727375204352 PID:1982
+20:49:23.618250391: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0908000 length=33639 Return:<NA> PID:1982
+20:49:23.618265680: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113732 vm_rss=8376 vm_swap=0 Return:0 PID:1982
+20:49:23.618271090: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/modules/overlay/overlay.module) Return:<NA> PID:1982
+20:49:23.618273244: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.624883517: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=56 tuple=NULL Return:<NA> PID:1982
+20:49:23.634621463: Informational Name:apache2 FD:14 Syscall:sendto Args:res=56 data=4....SELECT 1 FROM blocked_ips WHERE ip = '172.28.128.1' Return:56 PID:1982
+20:49:23.640751054: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=4440 Return:<NA> PID:1982
+20:49:23.640756454: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=50 data=..........def....1..?............................. tuple=127.0.0.1:3306->127.0.0.1:43361 Return:50 PID:1982
+20:49:23.641241184: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/session.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.641253327: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/session.inc) name=/var/www/html/drupal/includes/session.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533010 Return:15 PID:1982
+20:49:23.641270960: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=16589 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/session.inc) offset=0 Return:<NA> PID:1982
+20:49:23.641292230: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375220736 vm_size=113752 vm_rss=8376 vm_swap=0 Return:139727375220736 PID:1982
+20:49:23.644643529: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.644656173: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727262740480 vm_size=114012 vm_rss=8376 vm_swap=0 Return:139727262740480 PID:1982
+20:49:23.645559066: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090C000 length=16589 Return:<NA> PID:1982
+20:49:23.645574926: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113992 vm_rss=8444 vm_swap=0 Return:0 PID:1982
+20:49:23.645581970: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/session.inc) Return:<NA> PID:1982
+20:49:23.645584515: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.646743794: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/errors.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.646753482: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/errors.inc) name=/var/www/html/drupal/includes/errors.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533049 Return:15 PID:1982
+20:49:23.646767048: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=10539 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/errors.inc) offset=0 Return:<NA> PID:1982
+20:49:23.646843674: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375228928 vm_size=114004 vm_rss=8444 vm_swap=0 Return:139727375228928 PID:1982
+20:49:23.650308077: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090E000 length=10539 Return:<NA> PID:1982
+20:49:23.650322635: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=113992 vm_rss=8608 vm_swap=0 Return:0 PID:1982
+20:49:23.650329608: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/errors.inc) Return:<NA> PID:1982
+20:49:23.650332774: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.651703665: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/common.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.651716149: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/common.inc) name=/var/www/html/drupal/includes/common.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533048 Return:15 PID:1982
+20:49:23.651730676: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=290727 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/common.inc) offset=0 Return:<NA> PID:1982
+20:49:23.651751846: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727262449664 vm_size=114276 vm_rss=8608 vm_swap=0 Return:139727262449664 PID:1982
+20:49:23.669034418: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.669047543: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727262183424 vm_size=114536 vm_rss=8856 vm_swap=0 Return:139727262183424 PID:1982
+20:49:23.691245482: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.691262073: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727261917184 vm_size=114796 vm_rss=9348 vm_swap=0 Return:139727261917184 PID:1982
+20:49:23.695465328: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.695476830: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727261650944 vm_size=115056 vm_rss=9604 vm_swap=0 Return:139727261650944 PID:1982
+20:49:23.698151965: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14C9D80000 length=290727 Return:<NA> PID:1982
+20:49:23.698191651: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=114772 vm_rss=9644 vm_swap=0 Return:0 PID:1982
+20:49:23.698199295: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/common.inc) Return:<NA> PID:1982
+20:49:23.698202702: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.708258291: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/path.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.708275754: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/path.inc) name=/var/www/html/drupal/includes/path.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533021 Return:15 PID:1982
+20:49:23.708292586: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=20538 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/path.inc) offset=0 Return:<NA> PID:1982
+20:49:23.708314698: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375216640 vm_size=114796 vm_rss=9644 vm_swap=0 Return:139727375216640 PID:1982
+20:49:23.712520438: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090B000 length=20538 Return:<NA> PID:1982
+20:49:23.712532731: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=114772 vm_rss=9716 vm_swap=0 Return:0 PID:1982
+20:49:23.712538863: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/path.inc) Return:<NA> PID:1982
+20:49:23.712541668: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.713851483: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/theme.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.713864668: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/theme.inc) name=/var/www/html/drupal/includes/theme.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533012 Return:15 PID:1982
+20:49:23.713881851: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=97675 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/theme.inc) offset=0 Return:<NA> PID:1982
+20:49:23.713903983: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375142912 vm_size=114868 vm_rss=9716 vm_swap=0 Return:139727375142912 PID:1982
+20:49:23.718910382: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F14D1FF1000 Return:<NA> PID:1982
+20:49:23.718925150: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F14D1FF1000 vm_size=115000 vm_rss=9716 vm_swap=0 Return:139727399227392 PID:1982
+20:49:23.719882346: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.719890562: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727262474240 vm_size=115260 vm_rss=9716 vm_swap=0 Return:139727262474240 PID:1982
+20:49:23.723172699: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D08F9000 length=97675 Return:<NA> PID:1982
+20:49:23.723191756: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=115164 vm_rss=10056 vm_swap=0 Return:0 PID:1982
+20:49:23.723197967: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/theme.inc) Return:<NA> PID:1982
+20:49:23.723313992: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.723545522: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/pager.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.723556372: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/pager.inc) name=/var/www/html/drupal/includes/pager.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533047 Return:15 PID:1982
+20:49:23.723568786: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=21807 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/pager.inc) offset=0 Return:<NA> PID:1982
+20:49:23.723585127: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375216640 vm_size=115188 vm_rss=10056 vm_swap=0 Return:139727375216640 PID:1982
+20:49:23.740088936: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090B000 length=21807 Return:<NA> PID:1982
+20:49:23.740106670: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=115164 vm_rss=10128 vm_swap=0 Return:0 PID:1982
+20:49:23.740117711: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/pager.inc) Return:<NA> PID:1982
+20:49:23.740122139: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.740807600: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=101 tuple=NULL Return:<NA> PID:1982
+20:49:23.741242074: Informational Name:apache2 FD:14 Syscall:sendto Args:res=101 data=a....SELECT cid, data, created, expire, serialized FROM cache_bootstrap WHERE ci Return:101 PID:1982
+20:49:23.741259978: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=4390 Return:<NA> PID:1982
+20:49:23.741263294: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=752 data=.....@....def.drupal.cache_bootstrap.cache_bootstrap.cid.cid.!.......@...B....de tuple=127.0.0.1:3306->127.0.0.1:43361 Return:752 PID:1982
+20:49:23.741458966: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/database/select.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.741469846: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/database/select.inc) name=/var/www/html/drupal/includes/database/select.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533053 Return:15 PID:1982
+20:49:23.741484524: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=49282 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/database/select.inc) offset=0 Return:<NA> PID:1982
+20:49:23.741502829: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375187968 vm_size=115216 vm_rss=10128 vm_swap=0 Return:139727375187968 PID:1982
+20:49:23.744280183: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.744289802: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727261384704 vm_size=115476 vm_rss=10128 vm_swap=0 Return:139727261384704 PID:1982
+20:49:23.746688658: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0904000 length=49282 Return:<NA> PID:1982
+20:49:23.746703266: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=115424 vm_rss=10368 vm_swap=0 Return:0 PID:1982
+20:49:23.746707995: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/database/select.inc) Return:<NA> PID:1982
+20:49:23.746710329: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.748515920: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/database/query.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.748528985: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/database/query.inc) name=/var/www/html/drupal/includes/database/query.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533054 Return:15 PID:1982
+20:49:23.748544955: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=55263 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/database/query.inc) offset=0 Return:<NA> PID:1982
+20:49:23.748560365: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375183872 vm_size=115480 vm_rss=10368 vm_swap=0 Return:139727375183872 PID:1982
+20:49:23.759832252: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.759847571: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727261118464 vm_size=115740 vm_rss=10368 vm_swap=0 Return:139727261118464 PID:1982
+20:49:23.761573280: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0903000 length=55263 Return:<NA> PID:1982
+20:49:23.761588058: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=115684 vm_rss=10584 vm_swap=0 Return:0 PID:1982
+20:49:23.761595051: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/database/query.inc) Return:<NA> PID:1982
+20:49:23.761598468: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.763067475: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/menu.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.763077865: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/menu.inc) name=/var/www/html/drupal/includes/menu.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533008 Return:15 PID:1982
+20:49:23.763088796: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=132504 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/menu.inc) offset=0 Return:<NA> PID:1982
+20:49:23.763104706: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727260983296 vm_size=115816 vm_rss=10584 vm_swap=0 Return:139727260983296 PID:1982
+20:49:23.769136746: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.769152235: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727260717056 vm_size=116076 vm_rss=10584 vm_swap=0 Return:139727260717056 PID:1982
+20:49:23.775433669: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.775449368: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727260450816 vm_size=116336 vm_rss=11088 vm_swap=0 Return:139727260450816 PID:1982
+20:49:23.777249925: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14C9C1A000 length=132504 Return:<NA> PID:1982
+20:49:23.777338553: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116204 vm_rss=11136 vm_swap=0 Return:0 PID:1982
+20:49:23.777346729: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/menu.inc) Return:<NA> PID:1982
+20:49:23.777349464: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.790753837: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/tablesort.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.790767483: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/tablesort.inc) name=/var/www/html/drupal/includes/tablesort.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533040 Return:15 PID:1982
+20:49:23.790783353: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=7460 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/tablesort.inc) offset=0 Return:<NA> PID:1982
+20:49:23.790847685: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375233024 vm_size=116212 vm_rss=11136 vm_swap=0 Return:139727375233024 PID:1982
+20:49:23.793279364: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090F000 length=7460 Return:<NA> PID:1982
+20:49:23.793294292: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116204 vm_rss=11172 vm_swap=0 Return:0 PID:1982
+20:49:23.793302738: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/tablesort.inc) Return:<NA> PID:1982
+20:49:23.793305764: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.793351451: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/file.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.793358033: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/file.inc) name=/var/www/html/drupal/includes/file.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533034 Return:15 PID:1982
+20:49:23.793367481: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=84154 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/file.inc) offset=0 Return:<NA> PID:1982
+20:49:23.793378823: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375155200 vm_size=116288 vm_rss=11172 vm_swap=0 Return:139727375155200 PID:1982
+20:49:23.799128692: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.799143460: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727260184576 vm_size=116548 vm_rss=11172 vm_swap=0 Return:139727260184576 PID:1982
+20:49:23.802460870: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D08FC000 length=84154 Return:<NA> PID:1982
+20:49:23.802480407: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116464 vm_rss=11476 vm_swap=0 Return:0 PID:1982
+20:49:23.802487350: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/file.inc) Return:<NA> PID:1982
+20:49:23.802490777: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.803735388: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/stream_wrappers.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.803749986: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/stream_wrappers.inc) name=/var/www/html/drupal/includes/stream_wrappers.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533032 Return:15 PID:1982
+20:49:23.803769453: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=22579 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/stream_wrappers.inc) offset=0 Return:<NA> PID:1982
+20:49:23.803790883: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375216640 vm_size=116488 vm_rss=11476 vm_swap=0 Return:139727375216640 PID:1982
+20:49:23.812748970: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090B000 length=22579 Return:<NA> PID:1982
+20:49:23.812764179: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116464 vm_rss=11564 vm_swap=0 Return:0 PID:1982
+20:49:23.812771884: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/stream_wrappers.inc) Return:<NA> PID:1982
+20:49:23.812775260: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.814926762: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/unicode.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.814939587: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/unicode.inc) name=/var/www/html/drupal/includes/unicode.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533020 Return:15 PID:1982
+20:49:23.814955096: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=21231 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/unicode.inc) offset=0 Return:<NA> PID:1982
+20:49:23.814973221: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375216640 vm_size=116488 vm_rss=11564 vm_swap=0 Return:139727375216640 PID:1982
+20:49:23.842338223: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.842352410: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727259918336 vm_size=116748 vm_rss=11564 vm_swap=0 Return:139727259918336 PID:1982
+20:49:23.843041868: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090B000 length=21231 Return:<NA> PID:1982
+20:49:23.843053390: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116724 vm_rss=11684 vm_swap=0 Return:0 PID:1982
+20:49:23.843059471: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/unicode.inc) Return:<NA> PID:1982
+20:49:23.843062046: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.843715867: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/image.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.843726817: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/image.inc) name=/var/www/html/drupal/includes/image.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533042 Return:15 PID:1982
+20:49:23.843741114: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=12137 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/image.inc) offset=0 Return:<NA> PID:1982
+20:49:23.843756734: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375228928 vm_size=116736 vm_rss=11684 vm_swap=0 Return:139727375228928 PID:1982
+20:49:23.846441964: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090E000 length=12137 Return:<NA> PID:1982
+20:49:23.846451372: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116724 vm_rss=11720 vm_swap=0 Return:0 PID:1982
+20:49:23.846455810: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/image.inc) Return:<NA> PID:1982
+20:49:23.846457914: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.847376502: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/form.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.847412531: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/form.inc) name=/var/www/html/drupal/includes/form.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533035 Return:15 PID:1982
+20:49:23.847430314: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=182668 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/form.inc) offset=0 Return:<NA> PID:1982
+20:49:23.847448028: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727259734016 vm_size=116904 vm_rss=11720 vm_swap=0 Return:139727259734016 PID:1982
+20:49:23.854364977: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.854377180: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727259467776 vm_size=117164 vm_rss=11976 vm_swap=0 Return:139727259467776 PID:1982
+20:49:23.860851074: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14C9AE9000 length=182668 Return:<NA> PID:1982
+20:49:23.860869128: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=116984 vm_rss=12232 vm_swap=0 Return:0 PID:1982
+20:49:23.860874849: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/form.inc) Return:<NA> PID:1982
+20:49:23.860877173: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.861620944: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/mail.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.861631715: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/mail.inc) name=/var/www/html/drupal/includes/mail.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533026 Return:15 PID:1982
+20:49:23.861646823: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=21628 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/mail.inc) offset=0 Return:<NA> PID:1982
+20:49:23.861666481: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375216640 vm_size=117008 vm_rss=12232 vm_swap=0 Return:139727375216640 PID:1982
+20:49:23.873002835: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.873013606: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727259201536 vm_size=117268 vm_rss=12232 vm_swap=0 Return:139727259201536 PID:1982
+20:49:23.873384710: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090B000 length=21628 Return:<NA> PID:1982
+20:49:23.873394629: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=117244 vm_rss=12304 vm_swap=0 Return:0 PID:1982
+20:49:23.873400540: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/mail.inc) Return:<NA> PID:1982
+20:49:23.873402844: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.874136647: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/actions.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.874146325: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/actions.inc) name=/var/www/html/drupal/includes/actions.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533030 Return:15 PID:1982
+20:49:23.874157246: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=13838 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/actions.inc) offset=0 Return:<NA> PID:1982
+20:49:23.874171022: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375224832 vm_size=117260 vm_rss=12304 vm_swap=0 Return:139727375224832 PID:1982
+20:49:23.876801032: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090D000 length=13838 Return:<NA> PID:1982
+20:49:23.876809127: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=117244 vm_rss=12348 vm_swap=0 Return:0 PID:1982
+20:49:23.876813095: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/actions.inc) Return:<NA> PID:1982
+20:49:23.876814437: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.877067648: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/ajax.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.877074350: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/ajax.inc) name=/var/www/html/drupal/includes/ajax.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533036 Return:15 PID:1982
+20:49:23.877083418: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=45330 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/ajax.inc) offset=0 Return:<NA> PID:1982
+20:49:23.877092795: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375192064 vm_size=117292 vm_rss=12348 vm_swap=0 Return:139727375192064 PID:1982
+20:49:23.883054126: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D0905000 length=45330 Return:<NA> PID:1982
+20:49:23.883069656: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=117244 vm_rss=12440 vm_swap=0 Return:0 PID:1982
+20:49:23.883076749: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/ajax.inc) Return:<NA> PID:1982
+20:49:23.883079304: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.883264085: Informational Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/drupal/includes/token.inc flags=1(O_RDONLY) mode=0 Return:<NA> PID:1982
+20:49:23.883273142: Informational Name:apache2 FD:15 Syscall:open Args:fd=15(<f>/var/www/html/drupal/includes/token.inc) name=/var/www/html/drupal/includes/token.inc flags=1(O_RDONLY) mode=0 dev=FC00 ino=533006 Return:15 PID:1982
+20:49:23.883286928: Informational Name:apache2 FD:15 Syscall:mmap Args:addr=0 length=9799 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=15(<f>/var/www/html/drupal/includes/token.inc) offset=0 Return:<NA> PID:1982
+20:49:23.883303229: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727375228928 vm_size=117256 vm_rss=12440 vm_swap=0 Return:139727375228928 PID:1982
+20:49:23.894230562: Informational Name:apache2 FD:<NA> Syscall:munmap Args:addr=7F14D090E000 length=9799 Return:<NA> PID:1982
+20:49:23.894239509: Informational Name:apache2 FD:<NA> Syscall:munmap Args:res=0 vm_size=117244 vm_rss=12460 vm_swap=0 Return:0 PID:1982
+20:49:23.894245280: Informational Name:apache2 FD:15 Syscall:close Args:fd=15(<f>/var/www/html/drupal/includes/token.inc) Return:<NA> PID:1982
+20:49:23.894247575: Informational Name:apache2 FD:15 Syscall:close Args:res=0 Return:0 PID:1982
+20:49:23.894518649: Informational Name:apache2 FD:14 Syscall:sendto Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=100 tuple=NULL Return:<NA> PID:1982
+20:49:23.895588930: Informational Name:apache2 FD:14 Syscall:sendto Args:res=100 data=`....SELECT cid, data, created, expire, serialized FROM cache_bootstrap WHERE ci Return:100 PID:1982
+20:49:23.899622283: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=3638 Return:<NA> PID:1982
+20:49:23.899625669: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=3638 data=.....@....def.drupal.cache_bootstrap.cache_bootstrap.cid.cid.!.......@...B....de tuple=127.0.0.1:3306->127.0.0.1:43361 Return:3638 PID:1982
+20:49:23.899649785: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F14D2015000 Return:<NA> PID:1982
+20:49:23.899656999: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F14D2015000 vm_size=117388 vm_rss=12460 vm_swap=0 Return:139727399374848 PID:1982
+20:49:23.899677858: Informational Name:apache2 FD:14 Syscall:recvfrom Args:fd=14(<4t>127.0.0.1:43361->127.0.0.1:3306) size=37715 Return:<NA> PID:1982
+20:49:23.899696804: Informational Name:apache2 FD:14 Syscall:recvfrom Args:res=33779 data=inistrative tasks and tracking information within your site.";s:4:"core";s:3:"7. tuple=127.0.0.1:3306->127.0.0.1:43361 Return:33779 PID:1982
+20:49:23.899836379: Informational Name:apache2 FD:-1 Syscall:mmap Args:addr=0 length=266240 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 Return:<NA> PID:1982
+20:49:23.899842911: Informational Name:apache2 FD:<NA> Syscall:mmap Args:res=139727258935296 vm_size=117648 vm_rss=12460 vm_swap=0 Return:139727258935296 PID:1982
+20:49:23.900385661: Informational Name:apache2 FD:<NA> Syscall:brk Args:addr=7F14D2011000 Return:<NA> PID:1982
+20:49:23.900392204: Informational Name:apache2 FD:<NA> Syscall:brk Args:res=7F14D2011000 vm_size=117632 vm_rss=12720 vm_swap=0 Return:139727399358464 PID:1982
+20:49:23.900416970: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.903232362: Informational Name:apache2 FD:<NA> Syscall:access Args:res=0 name=modules/block/block.module(/var/www/html/drupal/modules/block/block.module) Return:0 PID:1982
+20:49:23.903269763: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.906934658: Informational Name:apache2 FD:<NA> Syscall:access Args:res=0 name=themes/bartik/bartik.info(/var/www/html/drupal/themes/bartik/bartik.info) Return:0 PID:1982
+20:49:23.906962871: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.909623890: Informational Name:apache2 FD:<NA> Syscall:access Args:res=0 name=modules/color/color.module(/var/www/html/drupal/modules/color/color.module) Return:0 PID:1982
+20:49:23.909645782: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982
+20:49:23.911333113: Informational Name:apache2 FD:<NA> Syscall:access Args:res=0 name=modules/comment/comment.module(/var/www/html/drupal/modules/comment/comment.module) Return:0 PID:1982
+20:49:23.911387757: Informational Name:apache2 FD:<NA> Syscall:access Args:mode=0(F_OK) Return:<NA> PID:1982

@@ -135,7 +135,7 @@ int main() {
     fclose(file);
 
     // Output the graph in DOT format
-    FILE *dot_file = fopen("graph.dot", "w");
+    FILE *dot_file = fopen("../graphs/graph2.dot", "w");
     if (!dot_file) {
         perror("Failed to open DOT file");
         return 1;
@@ -156,6 +156,6 @@ int main() {
     fprintf(dot_file, "}\n");
 
     fclose(dot_file);
-    printf("Graph exported to graph.dot\n");
+    printf("Graph exported to graphs/graph2.dot\n");
     return 0;
 }
