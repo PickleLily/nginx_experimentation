@@ -1,0 +1,49 @@
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/log.html flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/log.html) name=/var/www/log.html flags=1(O_RDONLY) mode=0 dev=FC00 ino=532715 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/log.html) Return:<NA> PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/ Return:0 PID:1801
+Name:apache2 FD:<NA> Syscall:chdir Args:res=0 path=/var/www/html/chat Return:0 PID:1801
+Name:apache2 FD:-1 Syscall:open Args:name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:open Args:fd=14(<f>/var/www/html/chat/read_log.php) name=/var/www/html/chat/read_log.php flags=1(O_RDONLY) mode=0 dev=FC00 ino=532711 Return:14 PID:1801
+Name:apache2 FD:14 Syscall:mmap Args:addr=0 length=288 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=14(<f>/var/www/html/chat/read_log.php) offset=0 Return:<NA> PID:1801
+Name:apache2 FD:14 Syscall:close Args:fd=14(<f>/var/www/html/chat/read_log.php) Return:<NA> PID:1801

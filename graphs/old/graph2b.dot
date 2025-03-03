@@ -1,0 +1,37 @@
+digraph nginx_syscalls {
+  0 [label="PID:1982 13(<4t>172.28.128.1:62374->172.28.128.3:80)"];
+  1 [label="PID:1982 "];
+  2 [label="PID:1982 Unknown File"];
+  3 [label="PID:1982 1"];
+  4 [label="PID:1982 14(<4>)"];
+  5 [label="PID:1982 14(<4t>127.0.0.1:43361->127.0.0.1:3306)"];
+  0 -> 0 [label="fcntl"];
+  0 -> 1 [label="fcntl"];
+  1 -> 0 [label="read"];
+  0 -> 1 [label="read"];
+  1 -> 1 [label="mmap"];
+  1 -> 1 [label="chdir"];
+  1 -> 0 [label="close"];
+  0 -> 1 [label="mmap"];
+  1 -> 2 [label="close"];
+  2 -> 1 [label="access"];
+  1 -> 1 [label="access"];
+  2 -> 1 [label="mmap"];
+  2 -> 1 [label="socket"];
+  1 -> 0 [label="socket"];
+  0 -> 3 [label="close"];
+  3 -> 1 [label="socket"];
+  1 -> 3 [label="socket"];
+  3 -> 0 [label="fcntl"];
+  1 -> 4 [label="fcntl"];
+  4 -> 1 [label="fcntl"];
+  1 -> 4 [label="connect"];
+  4 -> 1 [label="connect"];
+  1 -> 0 [label="fcntl"];
+  1 -> 1 [label="setsockopt"];
+  1 -> 5 [label="recvfrom"];
+  5 -> 1 [label="recvfrom"];
+  1 -> 5 [label="sendto"];
+  5 -> 1 [label="sendto"];
+  2 -> 5 [label="sendto"];
+}

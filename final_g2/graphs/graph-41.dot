@@ -1,0 +1,38 @@
+digraph nginx_syscalls {
+subgraph cluster_0 {
+  00 [label="192.168.86.141:56788" shape=diamond];
+  10 [label="192.168.86.217:80" shape=diamond];
+  20 [label="1239" shape=rectangle];
+  30 [label="/var/www/html/index.nginx-debian.html" shape=ellipse];
+  00 -> 10 [label="accept4" style=solid];
+  10 -> 20 [label="recvfrom" style=solid];
+  20 -> 30 [label="openat" style=solid];
+  20 -> 30 [label="fstat" style=solid];
+  20 -> 10 [label="writev" style=solid];
+  20 -> 30 [label="close" style=solid];
+}
+
+subgraph cluster_1 {
+  01 [label="192.168.86.141:56789" shape=diamond];
+  11 [label="192.168.86.217:80" shape=diamond];
+  21 [label="1239" shape=rectangle];
+  01 -> 11 [label="accept4" style=solid];
+  11 -> 21 [label="" style=dashed];
+}
+
+subgraph cluster_2 {
+  02 [label="192.168.86.141:56797" shape=diamond];
+  12 [label="192.168.86.217:80" shape=diamond];
+  22 [label="1239" shape=rectangle];
+  32 [label="/var/www/html/index.nginx-debian.html" shape=ellipse];
+  02 -> 12 [label="accept4" style=solid];
+  12 -> 22 [label="recvfrom" style=solid];
+  22 -> 32 [label="openat" style=solid];
+  22 -> 32 [label="fstat" style=solid];
+  22 -> 32 [label="pread" style=solid];
+  22 -> 12 [label="writev" style=solid];
+  22 -> 32 [label="close" style=solid];
+  22 -> 12 [label="close" style=solid];
+}
+
+}

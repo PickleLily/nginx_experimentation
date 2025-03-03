@@ -1,0 +1,148 @@
+17:48:23.153771949: Informational Name:nginx FD:-1 Syscall:accept4 Args:flags=0, Return:<NA>, PID:1239
+17:48:23.153823963: Informational Name:nginx FD:7 Syscall:accept4 Args:fd=7(<4t>192.168.86.141:56788->192.168.86.217:80) tuple=192.168.86.141:56788->192.168.86.217:80 queuepct=0 queuelen=1 queuemax=511, Return:7, PID:1239
+17:48:23.153834398: Informational Name:nginx FD:<NA> Syscall:epoll_ctl Args:, Return:<NA>, PID:1239
+17:48:23.153840305: Informational Name:nginx FD:<NA> Syscall:epoll_ctl Args:, Return:<NA>, PID:1239
+17:48:23.153845676: Informational Name:nginx FD:-1 Syscall:accept4 Args:flags=0, Return:<NA>, PID:1239
+17:48:23.153847646: Informational Name:nginx FD:11 Syscall:accept4 Args:fd=11(<4t>192.168.86.141:56789->192.168.86.217:80) tuple=192.168.86.141:56789->192.168.86.217:80 queuepct=0 queuelen=0 queuemax=511, Return:11, PID:1239
+17:48:23.153861544: Informational Name:nginx FD:<NA> Syscall:epoll_ctl Args:, Return:<NA>, PID:1239
+17:48:23.153865544: Informational Name:nginx FD:<NA> Syscall:epoll_ctl Args:, Return:<NA>, PID:1239
+17:48:23.153894741: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=0 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003378594: Informational Name:nginx FD:7 Syscall:recvfrom Args:fd=7(<4t>192.168.86.141:56788->192.168.86.217:80) size=1024, Return:<NA>, PID:1239
+17:48:25.003395370: Informational Name:nginx FD:7 Syscall:recvfrom Args:res=560 data=GET / HTTP/1.1..Host: 192.168.86.217..Connection: keep-alive..Cache-Control: max tuple=192.168.86.141:56788->192.168.86.217:80, Return:560, PID:1239
+17:48:25.003426892: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:25.003478755: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003628193: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003636253: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003639741: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003642699: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003644766: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/ flags=0, Return:0, PID:1239
+17:48:25.003648620: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:25.003659313: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003663801: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003667754: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003670455: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003672979: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003674788: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/ flags=0, Return:0, PID:1239
+17:48:25.003677391: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:25.003683281: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003686841: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003690305: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003692972: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003695510: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003697178: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=-2(ENOENT) dirfd=-100(AT_FDCWD) path=/var/www/html/index.html flags=0, Return:-2, PID:1239
+17:48:25.003699195: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:,Return:<NA>, PID:1239
+17:48:25.003704641: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003835031: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003840826: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003843597: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003846252: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003848014: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html flags=0, Return:0, PID:1239
+17:48:25.003849990: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:25.003856996: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003860658: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003863874: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003866503: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003869144: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003870903: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=-2(ENOENT) dirfd=-100(AT_FDCWD) path=/var/www/html/index.htm flags=0, Return:-2, PID:1239
+17:48:25.003872197: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:25.003879009: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003882484: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003886198: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003888795: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003891289: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003892949: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/index.nginx-debian.html flags=0, Return:0, PID:1239
+17:48:25.003896567: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:25.003902405: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003905961: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003910377: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.003913108: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.004100651: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:25.004104395: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/index.nginx-debian.html flags=0, Return:0, PID:1239
+17:48:25.004112236: Informational Name:nginx FD:-1 Syscall:openat Args:dirfd=-100(AT_FDCWD) name=/var/www/html/index.nginx-debian.html flags=65(O_NONBLOCK|O_RDONLY) mode=0, Return:<NA>, PID:1239
+17:48:25.004124802: Informational Name:nginx FD:12 Syscall:openat Args:fd=12(<f>/var/www/html/index.nginx-debian.html) dirfd=-100(AT_FDCWD) name=/var/www/html/index.nginx-debian.html flags=65(O_NONBLOCK|O_RDONLY) mode=0 dev=FC00 ino=3179, Return:12, PID:1239
+17:48:25.004126453: Informational Name:nginx FD:12 Syscall:fstat Args:fd=12(<f>/var/www/html/index.nginx-debian.html), Return:<NA>, PID:1239
+17:48:25.004128004: Informational Name:nginx FD:12 Syscall:fstat Args:res=0, Return:0, PID:1239
+17:48:25.004142878: Informational Name:nginx FD:7 Syscall:writev Args:fd=7(<4t>192.168.86.141:56788->192.168.86.217:80) size=189, Return:<NA>, PID:1239
+17:48:25.004683309: Informational Name:nginx FD:7 Syscall:writev Args:res=189 data=HTTP/1.1 304 Not Modified..Server: nginx/1.24.0 (Ubuntu)..Date: Fri, 07 Feb 2025, Return:189, PID:1239
+17:48:25.004698297: Informational Name:nginx FD:4 Syscall:write Args:fd=4(<f>/var/log/nginx/access.log) size=203, Return:<NA>, PID:1239
+17:48:25.004716528: Informational Name:nginx FD:4 Syscall:write Args:res=203 data=192.168.86.141 - - [07/Feb/2025:17:48:25 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozi, Return:203, PID:1239
+17:48:25.004717540: Informational Name:nginx FD:12 Syscall:close Args:fd=12(<f>/var/www/html/index.nginx-debian.html), Return:<NA>, PID:1239
+17:48:25.004722451: Informational Name:nginx FD:12 Syscall:close Args:res=0, Return:0, PID:1239
+17:48:25.004725162: Informational Name:nginx FD:<NA> Syscall:setsockopt Args:,Return:<NA>, PID:1239
+17:48:25.004727837: Informational Name:nginx FD:-1 Syscall:setsockopt Args:res=0 fd=7(<4t>192.168.86.141:56788->192.168.86.217:80) level=2(SOL_TCP) optname=0(UNKNOWN) val=.... optlen=4, Return:0, PID:1239
+17:48:25.004738436: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=543(auditd) pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.574799411: Informational Name:nginx FD:-1 Syscall:accept4 Args:flags=0, Return:<NA>, PID:1239
+17:48:33.574853045: Informational Name:nginx FD:12 Syscall:accept4 Args:fd=12(<4t>192.168.86.141:56797->192.168.86.217:80) tuple=192.168.86.141:56797->192.168.86.217:80 queuepct=0 queuelen=0 queuemax=511, Return:12, PID:1239
+17:48:33.574866248: Informational Name:nginx FD:<NA> Syscall:epoll_ctl Args:, Return:<NA>, PID:1239
+17:48:33.574874573: Informational Name:nginx FD:<NA> Syscall:epoll_ctl Args:, Return:<NA>, PID:1239
+17:48:33.574881932: Informational Name:nginx FD:12 Syscall:recvfrom Args:fd=12(<4t>192.168.86.141:56797->192.168.86.217:80) size=1024, Return:<NA>, PID:1239
+17:48:33.574888013: Informational Name:nginx FD:12 Syscall:recvfrom Args:res=451 data=GET / HTTP/1.1..Host: 192.168.86.217..Connection: keep-alive..DNT: 1..Upgrade-In tuple=192.168.86.141:56797->192.168.86.217:80, Return:451, PID:1239
+17:48:33.574911048: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:33.574959523: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575111465: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575139825: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575164210: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575182322: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575194214: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/ flags=0, Return:0, PID:1239
+17:48:33.575197733: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:33.575207900: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575238301: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575257589: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575277105: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575293327: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575303804: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/ flags=0, Return:0, PID:1239
+17:48:33.575306631: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:33.575315722: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575343229: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575361289: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575378065: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575392806: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575419479: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=-2(ENOENT) dirfd=-100(AT_FDCWD) path=/var/www/html/index.html flags=0, Return:-2, PID:1239
+17:48:33.575423125: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:33.575448690: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575502268: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575522327: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575558018: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575583211: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575596060: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html flags=0, Return:0, PID:1239
+17:48:33.575598527: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:33.575609322: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575640744: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575659424: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575679567: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575697752: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575708471: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=-2(ENOENT) dirfd=-100(AT_FDCWD) path=/var/www/html/index.htm flags=0, Return:-2, PID:1239
+17:48:33.575712399: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:33.575725523: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575755577: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575774690: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575795528: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575812644: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575823876: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/index.nginx-debian.html flags=0, Return:0, PID:1239
+17:48:33.575832661: Informational Name:nginx FD:<NA> Syscall:newfstatat Args:, Return:<NA>, PID:1239
+17:48:33.575842279: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575874546: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575896896: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575917098: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575935411: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=24 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:33.575946871: Informational Name:nginx FD:-1 Syscall:newfstatat Args:res=0 dirfd=-100(AT_FDCWD) path=/var/www/html/index.nginx-debian.html flags=0, Return:0, PID:1239
+17:48:33.575957899: Informational Name:nginx FD:-1 Syscall:openat Args:dirfd=-100(AT_FDCWD) name=/var/www/html/index.nginx-debian.html flags=65(O_NONBLOCK|O_RDONLY) mode=0, Return:<NA>, PID:1239
+17:48:33.575984689: Informational Name:nginx FD:13 Syscall:openat Args:fd=13(<f>/var/www/html/index.nginx-debian.html) dirfd=-100(AT_FDCWD) name=/var/www/html/index.nginx-debian.html flags=65(O_NONBLOCK|O_RDONLY) mode=0 dev=FC00 ino=3179, Return:13, PID:1239
+17:48:33.575986734: Informational Name:nginx FD:13 Syscall:fstat Args:fd=13(<f>/var/www/html/index.nginx-debian.html), Return:<NA>, PID:1239
+17:48:33.575988922: Informational Name:nginx FD:13 Syscall:fstat Args:res=0, Return:0, PID:1239
+17:48:33.576022480: Informational Name:nginx FD:13 Syscall:pread Args:fd=13(<f>/var/www/html/index.nginx-debian.html) size=615 pos=0, Return:<NA>, PID:1239
+17:48:33.576032718: Informational Name:nginx FD:13 Syscall:pread Args:res=615 data=<!DOCTYPE html>.<html>.<head>.<title>Welcome to nginx!</title>.<style>.html { co fd=13(<f>/var/www/html/index.nginx-debian.html) size=615 pos=0, Return:615, PID:1239
+17:48:33.576115374: Informational Name:nginx FD:12 Syscall:writev Args:fd=12(<4t>192.168.86.141:56797->192.168.86.217:80) size=667, Return:<NA>, PID:1239
+17:48:33.577272113: Informational Name:nginx FD:12 Syscall:writev Args:res=667 data=HTTP/1.1 200 OK..Server: nginx/1.24.0 (Ubuntu)..Date: Fri, 07 Feb 2025 17:48:33,  Return:667, PID:1239
+17:48:33.577310941: Informational Name:nginx FD:4 Syscall:write Args:fd=4(<f>/var/log/nginx/access.log) size=205, Return:<NA>, PID:1239
+17:48:33.577347662: Informational Name:nginx FD:4 Syscall:write Args:res=205 data=192.168.86.141 - - [07/Feb/2025:17:48:33 +0000] "GET / HTTP/1.1" 200 409 "-" "Mo, Return:205, PID:1239
+17:48:33.577348853: Informational Name:nginx FD:13 Syscall:close Args:fd=13(<f>/var/www/html/index.nginx-debian.html), Return:<NA>, PID:1239
+17:48:33.577367885: Informational Name:nginx FD:13 Syscall:close Args:res=0, Return:0, PID:1239
+17:48:33.577372511: Informational Name:nginx FD:<NA> Syscall:setsockopt Args:, Return:<NA>, PID:1239
+17:48:33.577376008: Informational Name:nginx FD:-1 Syscall:setsockopt Args:res=0 fd=12(<4t>192.168.86.141:56797->192.168.86.217:80) level=2(SOL_TCP) optname=0(UNKNOWN) val=.... optlen=4, Return:0, PID:1239
+17:48:33.577400559: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=0 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:36.274628025: Informational Name:nginx FD:12 Syscall:recvfrom Args:fd=12(<4t>192.168.86.141:56797->192.168.86.217:80) size=1024, Return:<NA>, PID:1239
+17:48:36.274647709: Informational Name:nginx FD:12 Syscall:recvfrom Args:res=0 data=NULL tuple=192.168.86.141:56797->192.168.86.217:80, Return:0 PID:1239
+17:48:36.274655472: Informational Name:nginx FD:12 Syscall:close Args:fd=12(<4t>192.168.86.141:56797->192.168.86.217:80), Return:<NA>, PID:1239
+17:48:36.275356506: Informational Name:nginx FD:<NA> Syscall:<NA> Args:next=17 pgft_maj=0 pgft_min=225 vm_size=12880 vm_rss=5052 vm_swap=0, Return:<NA>, PID:1239
+17:48:36.275392768: Informational Name:nginx FD:12 Syscall:close Args:res=0, Return:0, PID:1239

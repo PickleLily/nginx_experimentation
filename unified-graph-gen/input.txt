@@ -1,0 +1,87 @@
+12:00:29.850949865: Debug Name=nginx Syscall=execve Args=res=0 exe=./a.out args=1. tid=4531(a.out) pid=4531(a.out) ptid=2366(bash) cwd=<NA> fdlimit=1024 pgft_maj=0 pgft_min=30 vm_size=384 vm_rss=4 vm_swap=0 comm=a.out cgroups=cpuset=/.cpu=/user.slice/user-1000.slice/user@1000.service/app.slice.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-e3178865-4>
+12:00:29.850989118: Debug Name=nginx Syscall=brk Args=addr=0
+12:00:29.850991232: Debug Name=nginx Syscall=brk Args=res=55BE5A14F000 vm_size=384 vm_rss=4 vm_swap=0
+12:00:29.851725007: Debug Name=nginx Syscall=switch Args=next=15 pgft_maj=0 pgft_min=37 vm_size=384 vm_rss=4 vm_swap=0
+12:00:29.851924460: Debug Name=nginx Syscall=mmap Args=addr=0 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0
+12:00:29.851934008: Debug Name=nginx Syscall=mmap Args=res=140188821725184 vm_size=392 vm_rss=4 vm_swap=0
+12:00:29.851944067: Debug Name=nginx Syscall=access Args=mode=4(R_OK)
+12:00:29.851953986: Debug Name=nginx Syscall=access Args=res=-2(ENOENT) name=/etc/ld.so.preload
+12:00:29.851960859: Debug Name=nginx Syscall=openat Args=dirfd=-100(AT_FDCWD) name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+12:00:29.851971569: Debug Name=nginx Syscall=openat Args=fd=3(<f>/etc/ld.so.cache) dirfd=-100(AT_FDCWD) name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=801 ino=10094497
+12:00:29.851974665: Debug Name=nginx Syscall=newfstatat Args=
+12:00:29.851979393: Debug Name=nginx Syscall=newfstatat Args=res=0 dirfd=3(<f>/etc/ld.so.cache) path=<NA> flags=4096(AT_EMPTY_PATH)
+12:00:29.851982249: Debug Name=nginx Syscall=mmap Args=addr=0 length=78326 prot=1(PROT_READ) flags=2(MAP_PRIVATE) fd=3(<f>/etc/ld.so.cache) offset=0
+12:00:29.851990835: Debug Name=nginx Syscall=mmap Args=res=140188821643264 vm_size=472 vm_rss=4 vm_swap=0
+12:00:29.851991867: Debug Name=nginx Syscall=close Args=fd=3(<f>/etc/ld.so.cache)
+12:00:29.851993911: Debug Name=nginx Syscall=close Args=res=0
+12:00:29.852008588: Debug Name=nginx Syscall=openat Args=dirfd=-100(AT_FDCWD) name=/lib/x86_64-linux-gnu/libc.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+12:00:29.852016703: Debug Name=nginx Syscall=openat Args=fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) dirfd=-100(AT_FDCWD) name=/lib/x86_64-linux-gnu/libc.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=801 ino=23119726
+12:00:29.852021863: Debug Name=nginx Syscall=newfstatat Args=
+12:00:29.852023686: Debug Name=nginx Syscall=newfstatat Args=res=0 dirfd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) path=<NA> flags=4096(AT_EMPTY_PATH)
+12:00:29.852026792: Debug Name=nginx Syscall=mmap Args=addr=0 length=1970000 prot=1(PROT_READ) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) offset=0
+12:00:29.852035619: Debug Name=nginx Syscall=mmap Args=res=140188819673088 vm_size=2396 vm_rss=4 vm_swap=0
+12:00:29.852036611: Debug Name=nginx Syscall=mmap Args=addr=7F8040CEB000 length=1396736 prot=5(PROT_READ|PROT_EXEC) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) offset=155648
+12:00:29.852055736: Debug Name=nginx Syscall=mmap Args=res=140188819828736 vm_size=2396 vm_rss=308 vm_swap=0
+12:00:29.852056738: Debug Name=nginx Syscall=mmap Args=addr=7F8040E40000 length=339968 prot=1(PROT_READ) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) offset=1552384
+12:00:29.852066587: Debug Name=nginx Syscall=mmap Args=res=140188821225472 vm_size=2396 vm_rss=308 vm_swap=0
+12:00:29.852067619: Debug Name=nginx Syscall=mmap Args=addr=7F8040E93000 length=24576 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) offset=1892352
+12:00:29.852077998: Debug Name=nginx Syscall=mmap Args=res=140188821565440 vm_size=2396 vm_rss=308 vm_swap=0
+12:00:29.852085492: Debug Name=nginx Syscall=mmap Args=addr=7F8040E99000 length=53072 prot=3(PROT_READ|PROT_WRITE) flags=14(MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0
+12:00:29.852091654: Debug Name=nginx Syscall=mmap Args=res=140188821590016 vm_size=2396 vm_rss=312 vm_swap=0
+12:00:29.852106121: Debug Name=nginx Syscall=close Args=fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6)
+12:00:29.852107123: Debug Name=nginx Syscall=close Args=res=0
+12:00:29.852118614: Debug Name=nginx Syscall=mmap Args=addr=0 length=12288 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0
+12:00:29.852122632: Debug Name=nginx Syscall=mmap Args=res=140188819660800 vm_size=2408 vm_rss=312 vm_swap=0
+12:00:29.852129705: Debug Name=nginx Syscall=arch_prctl Args=
+12:00:29.852131017: Debug Name=nginx Syscall=arch_prctl Args=
+12:00:29.852131779: Debug Name=nginx Syscall=set_tid_address Args=
+12:00:29.852132640: Debug Name=nginx Syscall=set_tid_address Args=
+12:00:29.852133362: Debug Name=nginx Syscall=set_robust_list Args=
+12:00:29.852133943: Debug Name=nginx Syscall=set_robust_list Args=
+12:00:29.852134674: Debug Name=nginx Syscall=rseq Args=
+12:00:29.852135446: Debug Name=nginx Syscall=rseq Args=
+12:00:29.852198985: Debug Name=nginx Syscall=mprotect Args=addr=7F8040E93000 length=16384 prot=1(PROT_READ)
+12:00:29.852209264: Debug Name=nginx Syscall=mprotect Args=res=0
+12:00:29.852212680: Debug Name=nginx Syscall=mprotect Args=addr=55BE1FD4B000 length=4096 prot=1(PROT_READ)
+12:00:29.852217550: Debug Name=nginx Syscall=mprotect Args=res=0
+12:00:29.852222900: Debug Name=nginx Syscall=mprotect Args=addr=7F8040EEC000 length=8192 prot=1(PROT_READ)
+12:00:29.852231746: Debug Name=nginx Syscall=mprotect Args=res=0
+12:00:29.852249479: Debug Name=nginx Syscall=prlimit Args=pid=0 resource=3(RLIMIT_STACK)
+12:00:29.852252816: Debug Name=nginx Syscall=prlimit Args=res=0 newcur=0 newmax=0 oldcur=8388608 oldmax=-1 pid=0 resource=3(RLIMIT_STACK)
+12:00:29.852272462: Debug Name=nginx Syscall=munmap Args=addr=7F8040EA6000 length=78326
+12:00:29.852286148: Debug Name=nginx Syscall=munmap Args=res=0 vm_size=2328 vm_rss=884 vm_swap=0
+12:00:29.852304793: Debug Name=nginx Syscall=getpid Args=
+12:00:29.852306115: Debug Name=nginx Syscall=getpid Args=
+12:00:29.852325311: Debug Name=nginx Syscall=newfstatat Args=
+12:00:29.852332956: Debug Name=nginx Syscall=newfstatat Args=res=0 dirfd=1(<f>/dev/pts/0) path=<NA> flags=4096(AT_EMPTY_PATH)
+12:00:29.852334879: Debug Name=nginx Syscall=getrandom Args=
+12:00:29.852336462: Debug Name=nginx Syscall=getrandom Args=
+12:00:29.852338696: Debug Name=nginx Syscall=brk Args=addr=0
+12:00:29.852339799: Debug Name=nginx Syscall=brk Args=res=55BE5A14F000 vm_size=2328 vm_rss=884 vm_swap=0
+12:00:29.852340720: Debug Name=nginx Syscall=brk Args=addr=55BE5A170000
+12:00:29.852343395: Debug Name=nginx Syscall=brk Args=res=55BE5A170000 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852364244: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=84 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852424778: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=84 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852458080: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=84 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852485081: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=84 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852520247: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=85 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852546997: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=85 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852572665: Debug Name=nginx Syscall=openat Args=dirfd=-100(AT_FDCWD) name=./file.txt(/home/osboxes/nginx_experimentation/client-server/file.txt) flags=3(O_RDWR) mode=0
+12:00:29.852581271: Debug Name=nginx Syscall=openat Args=fd=3(<f>/home/osboxes/nginx_experimentation/client-server/file.txt) dirfd=-100(AT_FDCWD) name=./file.txt(/home/osboxes/nginx_experimentation/client-server/file.txt) flags=3(O_RDWR) mode=0 dev=801 ino=19801021
+12:00:29.852584938: Debug Name=nginx Syscall=newfstatat Args=
+12:00:29.852587472: Debug Name=nginx Syscall=newfstatat Args=res=0 dirfd=3(<f>/home/osboxes/nginx_experimentation/client-server/file.txt) path=<NA> flags=4096(AT_EMPTY_PATH)
+12:00:29.852616958: Debug Name=nginx Syscall=lseek Args=fd=3(<f>/home/osboxes/nginx_experimentation/client-server/file.txt) offset=0 whence=0(SEEK_SET)
+12:00:29.852619352: Debug Name=nginx Syscall=lseek Args=res=0
+12:00:29.852625664: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=86 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852659297: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=86 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852742383: Debug Name=nginx Syscall=lseek Args=fd=3(<f>/home/osboxes/nginx_experimentation/client-server/file.txt) offset=0 whence=0(SEEK_SET)
+12:00:29.852743936: Debug Name=nginx Syscall=lseek Args=res=0
+12:00:29.852747352: Debug Name=nginx Syscall=lseek Args=fd=3(<f>/home/osboxes/nginx_experimentation/client-server/file.txt) offset=0 whence=0(SEEK_SET)
+12:00:29.852748224: Debug Name=nginx Syscall=lseek Args=res=0
+12:00:29.852753734: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=86 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852789381: Debug Name=nginx Syscall=switch Args=next=4364 pgft_maj=0 pgft_min=86 vm_size=2460 vm_rss=884 vm_swap=0
+12:00:29.852816221: Debug Name=nginx Syscall=close Args=fd=3(<f>/home/osboxes/nginx_experimentation/client-server/file.txt)
+12:00:29.852817704: Debug Name=nginx Syscall=close Args=res=0
+12:00:29.852823745: Debug Name=nginx Syscall=exit_group Args=
+12:00:29.852898014: Debug Name=nginx Syscall=procexit Args=status=0 ret=0 sig=0 core=0 reaper_tid=0
+

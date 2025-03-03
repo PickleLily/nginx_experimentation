@@ -1,0 +1,29 @@
+digraph nginx_syscalls {
+  0 [label="Unknown FD"];
+  1 [label="/etc/ld.so.cache"];
+  2 [label="/lib/x86_64-linux-gnu/libc.so.6"];
+  3 [label="/home/osboxes/nginx_experimentation/client-server/file.txt"];
+  0 -> 0 [label="mmap"];
+  0 -> 0 [label="openat"];
+  0 -> 1 [label="openat"];
+  0 -> 1 [label="newfstatat"];
+  0 -> 1 [label="mmap"];
+  0 -> 1 [label="close"];
+  0 -> 1 [label="openat"];
+  0 -> 2 [label="openat"];
+  0 -> 2 [label="newfstatat"];
+  0 -> 2 [label="mmap"];
+  0 -> 2 [label="mmap"];
+  0 -> 2 [label="mmap"];
+  0 -> 2 [label="mmap"];
+  0 -> 2 [label="mmap"];
+  0 -> 2 [label="close"];
+  0 -> 2 [label="mmap"];
+  0 -> 2 [label="openat"];
+  0 -> 3 [label="openat"];
+  0 -> 3 [label="newfstatat"];
+  0 -> 3 [label="lseek"];
+  0 -> 3 [label="lseek"];
+  0 -> 3 [label="lseek"];
+  0 -> 3 [label="close"];
+}

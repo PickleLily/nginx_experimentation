@@ -1,0 +1,25 @@
+digraph nginx_syscalls {
+  0 [label="192.168.86.141:56789" shape=diamond];
+  1 [label="192.168.86.217:80" shape=diamond];
+  2 [label="1239" shape=rectangle];
+  3 [label="fd=7(<4t>192.168.86.141:56788->192.168.86.217:80) size=1024" shape=ellipse];
+  4 [label="res=560 data=GET / HTTP/1.1..Host: 192.168.86.217..Connection: keep-alive..Cache-Control: max tuple=192.168.86.141:56788->192.168.86.217:80" shape=ellipse];
+  5 [label="fd=12(<f>/var/www/html/index.nginx-debian.html) dirfd=-100(AT_FDCWD) name=/var/www/html/index.nginx-debian.html flags=65(O_NONBLOCK|O_RDONLY) mode=0 dev=FC00 ino=3179" shape=ellipse];
+  6 [label="fd=12(<f>/var/www/html/index.nginx-debian.html)" shape=ellipse];
+  7 [label="res=0" shape=ellipse];
+  8 [label="fd=7(<4t>192.168.86.141:56788->192.168.86.217:80) size=189" shape=ellipse];
+  9 [label="res=189 data=HTTP/1.1 304 Not Modified..Server: nginx/1.24.0 (Ubuntu)..Date: Fri" shape=ellipse];
+  10 [label="fd=4(<f>/var/log/nginx/access.log) size=203" shape=ellipse];
+  1 -> 0 [label="accept4"];
+  0 -> 2 [label=""];
+  2 -> 3 [label="recvfrom"];
+  2 -> 4 [label="recvfrom"];
+  2 -> 5 [label="openat"];
+  2 -> 6 [label="fstat"];
+  2 -> 7 [label="fstat"];
+  2 -> 8 [label="writev"];
+  2 -> 9 [label="writev"];
+  2 -> 10 [label="write"];
+  2 -> 11 [label="write"];
+  2 -> 0 [label="close"];
+}
